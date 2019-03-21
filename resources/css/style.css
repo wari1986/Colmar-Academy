@@ -1,0 +1,30 @@
+/* Universal Styles */
+
+body {
+}
+
+/* Header Section */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  height: 32px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+.navbar span {
+  padding: 0 8px;
+}
