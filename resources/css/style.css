@@ -28,3 +28,45 @@ body {
 .navbar span {
   padding: 0 8px;
 }
+
+/* Main Section */
+
+.container {
+  display: flex;
+  background-color: #c6c5c5;
+}
+
+.container #first {
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 100px;
+}
+
+.banner {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner img {
+  width: 100%;
+  height: ;
+}
+
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  text-align: left;
+  padding-top: 55px;
+  color: #434343;
+  font-weight: bold;
+}
+
+.textcontainer button {
+  color: white;
+  background-color: #434343;
+  width: 100%;
+  padding: 8px 0px;
+}
