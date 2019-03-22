@@ -50,23 +50,33 @@ body {
 
 .banner img {
   width: 100%;
-  height: ;
+  height: auto;
 }
 
-.textcontainer {
+#first .textcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 40%;
   text-align: left;
-  padding-top: 55px;
   color: #434343;
   font-weight: bold;
+  align-self: center;
+  padding-right: 200px;
 }
 
-.textcontainer button {
+#first .textcontainer h1 {
+  font-size: 45px;
+}
+
+#first .textcontainer button {
   color: white;
   background-color: #434343;
-  width: 100%;
+  width: 82%;
   padding: 8px 0px;
+  align-self: flex-start;
+}
+
+#second {
+  background-color: white;
 }
